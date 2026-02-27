@@ -251,14 +251,15 @@ RIVALS_CSS = """
 
 /* ── PHOTO ── */
 .mbt-card-photo {
-  position:absolute;
-  top:14%;           /* Leggermente più su per bilanciare l'ingrandimento */
-  left:0;            /* Parte dal bordo sinistro */
-  width:100%;        /* Copre l'intera larghezza della carta */
-  height:48%;        /* Aumentata leggermente per mantenere le proporzioni */
-  object-fit:cover;  /* Taglia l'immagine per riempire lo spazio senza deformarla */
-  border-radius:0;   /* Rimosso l'arrotondamento per toccare i bordi netti */
-  z-index:3;
+  position: absolute !important;
+  top: 12% !important;      /* Regola l'altezza se necessario */
+  left: 0 !important;       /* Ancorata al bordo sinistro */
+  width: 100% !important;   /* Forza la larghezza totale */
+  height: 52% !important;   /* Altezza aumentata per un look più moderno */
+  object-fit: cover !important; 
+  object-position: center top; 
+  border-radius: 0 !important; 
+  z-index: 3;
 }
 .mbt-card-photo-placeholder {
   position:absolute;
