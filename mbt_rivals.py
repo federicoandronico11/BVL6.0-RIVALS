@@ -252,7 +252,7 @@ RIVALS_CSS = """
 /* ── PHOTO ── */
 .mbt-card-photo {
   position: absolute !important;
-  top: 1% !important;      /* Regola l'altezza se necessario */
+  top: 12% !important;      /* Regola l'altezza se necessario */
   left: 0 !important;       /* Ancorata al bordo sinistro */
   width: 100% !important;   /* Forza la larghezza totale */
   height: 52% !important;   /* Altezza aumentata per un look più moderno */
